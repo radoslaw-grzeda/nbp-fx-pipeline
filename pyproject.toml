@@ -1,0 +1,19 @@
+[project]
+name = "nbp-fx-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Radosław Grzęda", email = "348798049+radoslaw-grzeda@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+nbp-fx-pipeline = "nbp_fx_pipeline:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
